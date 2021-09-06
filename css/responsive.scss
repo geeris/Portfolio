@@ -1,0 +1,673 @@
+$boja:#F64C3F;
+//$boja:#FA9E2E;
+$bela:#fff;
+$crna:#000;
+$siva:#d5d5d5;
+$fontlogo:'Grand Hotel', cursive;
+
+@media screen and (max-width:1140px)
+{
+    body
+    {
+        font-size:18px;
+    }
+    .centar
+    {
+        width:90%;
+    }  
+    
+    #tekst
+    {
+        p{
+             font-size:21px;
+    
+             &:first-child
+             {
+            font-size:24px;
+             padding:20px;
+             }
+             &:last-of-type{
+                 padding-top:5px;
+             }
+        }
+        
+        h2{
+            font-size:36px;
+        }
+
+        a{
+            font-size:18px;
+        }
+    }
+
+    #forma{
+        input[type="text"], textarea
+        {
+            font-size:18px;
+        }
+    }
+}
+
+@media screen and (max-width:940px)
+{
+    #poredforme
+    {
+        #mreze
+        {
+            margin-bottom:12px;
+        }
+    
+    #pismo
+    {
+        img
+        {
+            border-radius:40px;
+            width:220px;
+            height:280px;
+        }     
+    }
+    }
+}
+
+@media screen and (max-width:900px)
+{    
+    #logo
+    {
+        height:80px;
+        width:100%;
+
+        padding-top:5px;
+        a{
+            img
+                {
+                    width:80px;
+                    height:80px;
+                 }
+        }
+    }
+    #relative
+        {
+            width:150px;
+            height:80px;
+        }
+
+    #png{
+        margin-left:5%;
+
+        img{
+            width:250px;
+            height:370px;
+        }
+    }
+}
+
+@media screen and (max-width:830px)
+{
+
+    /*projekti*/
+    #project{
+        .sajtovi{
+            .levo{
+                height:fit-content;
+                a{
+                    display: block;
+                    letter-spacing:  normal;
+                    width:fit-content;
+                    height:fit-content;
+                    position:  static;
+                    font-size:20px;
+                    top:0px;
+                    left:0px;
+                    transform: none;
+                    line-height: normal;
+                    background-color:$boja;
+                    color:black;
+                    font-weight: normal;
+                    padding:10px 30px;
+                    margin:0px auto;
+                }
+            }
+        }
+    } 
+    #sajtslika{
+        display: none;
+    }
+    /*********** SLIKA ***********/
+    #slika{
+       
+        #png{
+          //  margin-top:10%;
+            img{
+                width:260px;
+                height:380px;
+            }
+        }
+        #tekst{
+            width:50%;
+           // margin-bottom:10%;
+           height:55%;
+        }
+    }
+ 
+ /*project*/
+ #project{
+    .sajtovi
+    {   
+        align-items:  center;
+        flex-direction:  column-reverse;
+       
+        width:100%;
+        background-image: linear-gradient(to bottom right, $bela, $siva, $bela);
+        border:none;
+        border-radius:20px;
+        
+        .desno
+        {
+            #title{
+                text-decoration:  underline;
+            }
+            width:90%;
+        }
+    }
+ }
+
+    #project{
+        #title{
+         background-color:inherit;
+        }
+    } 
+}
+
+@media screen and (max-width:700px)
+{
+    #futer{
+        #futerprecice{
+           ul{
+               li{
+                    height:30px;
+               }
+           }
+        }
+    }
+    button{
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width:725px)
+{
+    #slika
+    {
+        height:600px;
+
+        #tekst{
+            height:60%;
+        }
+        #png{
+            img{
+                width:240px;
+                height:  340px;
+            }
+        }
+    }
+    #tekst
+    {
+        p{
+             font-size:18px;
+    
+             &:first-child
+             {
+            font-size:21px;
+             padding:20px;
+             }
+             &:last-of-type{
+                 padding-top:5px;
+             }
+        }
+        
+        h2{
+            font-size:33px;
+        }
+
+        a{
+            //font-size:16px;
+        }
+        margin-right:5%;
+    }
+
+    #lista
+    {
+        ul
+        {
+            height: 100%;
+
+            li
+            {
+                &:nth-child(2){
+                  //display:  block;
+                    display: none;
+                }
+
+                h1
+                {
+                    a:hover
+                    {
+                        background-color:$boja;
+                    }
+                    font-size:30px;
+                }
+
+                &:first-child
+                {
+                    display: block;
+                    font-family:$fontlogo;
+                    font-size:30px;
+                    background-color:$boja;
+                }
+             }
+        }
+    }
+ #meni
+    {
+        border-bottom:none;
+        position: static;
+      
+        .centar:first-child
+        {
+           width:100%;
+        }
+        ul
+        {
+           //padding: 0px;
+            
+             #relative
+            {
+               display:  none;
+            }
+            text-align:  center;
+            flex-wrap:  wrap;
+            li
+            {
+               a{
+                border-bottom: 2px solid $boja;
+                border-radius: 0;
+                    &:hover{
+                    background-color: $bela;
+                    }
+                }
+                //padding: 15px;
+                width:100%;
+
+                &:last-child
+                {
+                    border-bottom:none;
+                }
+            }
+           
+        }
+    }
+
+    .border
+        {
+            a{
+                display: block;
+                width: 100%;
+                padding:15px 0px;      
+            }
+        }
+
+        /****** contact ******/
+    #zaformu{
+        flex-direction:  column;
+        #forma{
+            width:100%;
+        }
+    }
+    #poredforme{
+        width:100%;
+       
+        #mreze{
+            display: flex;
+            p{
+                width:65%;
+                margin-bottom:0px;
+            }
+            ul{
+                width:35%;
+                align-items:  center;
+            }
+        }
+       #pismo{
+           display:none;
+       } 
+ }
+ 
+}
+
+/******* skills********/
+   .comfortable{
+    ul{
+        li{
+            i{
+                padding:10px 15px;
+            }
+        }
+    }
+
+/* project */
+
+       
+}
+@media screen and (max-width:600px)
+{
+    /******* SLIKA *********/
+
+    .home{
+        flex-direction:  column;
+    }
+    #slika{
+        height:700px;
+
+        #tekst
+    {
+        width:100%;
+        margin:40px 0px 0px 0px;
+        a{
+            padding:15px;
+        }
+    }
+    #png{
+        margin:0px 0px 50px 0px;
+        width:100%;
+        text-align:  center;
+    }
+    }
+    /******* skills********/
+   #dole
+   {
+       flex-direction: column;
+   }
+    .comfortable
+    {
+         width:100%;
+    }
+
+    .comfortable
+    {
+        &:last-child{
+            margin-top:10px;
+        }
+    }
+    /************* about ************/
+ #sredina
+{
+    
+     flex-direction:  column;
+    
+     #story{
+         width:100%;
+         margin:40px 0px 20px 0px;
+     }
+    #aboutSlika
+    {
+        margin-top:20px;
+        width:80%;
+        height:100%;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+}
+#dodatak
+{
+   ul{
+       justify-content:  space-between;
+       flex-wrap:  wrap;
+       li{
+        
+            background-color:$bela;
+            border-radius:10px;
+            margin-top:10px;
+           i{
+               padding:10px;
+               margin:5px;
+           }
+           flex-direction:  row;
+           width:47%;
+          
+       }
+   }
+}
+}
+@media screen and (max-width:535px)
+{
+    #slika
+    {   
+        height:700px;
+
+    }
+
+    #tekst
+    {
+        align-items:  flex-start;
+        p{
+             font-size:18px;
+    
+             &:first-child
+             {
+            font-size:21px;
+             padding:20px;
+             }
+             &:last-of-type{
+                 padding-top:5px;
+             }
+        }
+        
+        h2{
+            font-size:33px;
+        }
+
+        a{
+            font-size:16px;
+        }
+
+        width:100%;
+       
+        margin:40px 0px 0px 0px;
+        
+    }
+
+    #futer{
+       padding:50px 0px 30px 0px;
+        #futermeni, #futerprecice{
+            ul{
+                &:first-child{
+                    padding-bottom:20px;
+
+                }
+                &:last-child{
+                    padding-top:0px;
+                    margin-bottom:30px;
+                }
+
+                border-bottom:2px solid $bela;
+
+                .futernevidljiv{
+                    display:  block;
+                    font-size:25px;
+                    text-align: center;
+                    text-decoration: underline;
+                    color:$boja;
+                font-family: $fontlogo
+                }
+
+                flex-direction:  column;
+                width:70%;
+                
+                li{
+                    width:100%;
+                   border:none;
+                    padding:5px;
+                }
+            }  
+        }  
+    }
+   
+}
+
+@media screen and (max-width:500px)
+{
+   
+
+    /*skills*/
+    /******* skills ***********/
+    .comfortable{
+        ul
+         {    
+            .fab,.far,.fas
+            {
+                font-size:30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:460px)
+{
+    #dodatak
+    {
+         ul
+        { 
+            li
+            {
+                width:100%;   
+            }     
+        }
+    }
+#poredforme{
+    #mreze{
+        flex-direction: column;
+
+        p{
+            width:100%;
+            margin-bottom:15px;
+        }
+        ul{
+            width:100%;
+            li{
+                i{
+                  font-size:15px;
+                }
+            }
+        }
+    }
+ }
+}
+
+
+@media screen and (max-width:400px)
+{
+    body{
+        font-size:14px;
+    }
+    .comfortable
+    {
+        ul{
+            li{
+                flex-direction:  column;
+
+                p{
+                    text-align:center;
+                }
+                 i{
+                      padding:5px;
+                }
+            }       
+         }          
+    }
+    #title{
+        h4{
+            font-size:12px;
+        }
+    }
+    .naslov{
+        h3{
+        font-size:22px;
+    }
+}
+    
+    #project{
+       #title{
+            h4{
+                font-size:20px;
+            }
+        }
+    }
+
+    #futer{
+        #futermeni, #futerprecice{
+            ul{
+            .futernevidljiv{
+                font-size:22px;
+            }
+            }
+        }
+    }
+    #about{
+        #dodatak{
+            ul{
+                li{
+                    flex-direction:  column;
+                    padding-bottom:10px;
+                }
+            }
+        }
+    }
+    #project{
+        .sajtovi{
+            .levo{
+                a{
+                    font-size:14px;
+                }
+            }
+        }
+    }
+  #forma input[type="text"], #forma textarea
+    {
+        font-size:15px;
+    }
+    #forma .polje input:focus ~ label,
+    #forma .polje input:valid ~ label,
+    #forma .polje textarea:focus ~ label,
+    #forma .polje textarea:valid ~ label 
+    {
+        font-size:17px;
+    }
+    button{
+        font-size:15px;
+    }
+    #forma{
+        .polje{
+            &:first-child{
+                margin-top:30px;
+            }
+           
+            margin:20px 0px;
+        }
+    }
+
+}
+@media screen and (max-width:250px)
+{
+   #slika{  
+       #png{
+           width:100%;
+           height:100%;
+           img{
+            max-width:100%;
+            max-height:100%;
+           }
+       }
+   }
+}

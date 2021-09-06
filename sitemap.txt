@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="">
+	<url>
+		<loc> </loc>
+		<lastmod> godina-mesec-dan </lastmod>
+		<changefreq> Yearly </changefreq>
+		<priority> 0.99 </priority>
+	</url>
+</urlset>

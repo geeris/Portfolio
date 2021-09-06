@@ -1,0 +1,501 @@
+body {
+  font-size: 22px;
+  font-family: "Arimo", sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.cistac {
+  clear: both; }
+
+.centar {
+  margin: 0 auto;
+  width: 1024px; }
+
+/******************** MENI ********************/
+#meni {
+  border-bottom: 5px solid #F64C3F;
+  background-color: #fff;
+  position: sticky;
+  z-index: 5;
+  top: 0px; }
+
+#lista a {
+  text-decoration: none;
+  color: #000; }
+#lista ul {
+  list-style-type: none; }
+#lista ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px; }
+  #lista ul li:first-child {
+    display: none; }
+
+.border {
+  text-align: center; }
+  .border a {
+    padding: 10px; }
+    .border a:hover {
+      background-color: #d5d5d5;
+      border-radius: 30px; }
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25px;
+  z-index: 1;
+  height: 80px;
+  width: 100%;
+  background-color: #F64C3F;
+  border-radius: 40px; }
+  #logo h1 {
+    text-align: center;
+    font-family: "Grand Hotel", cursive;
+    font-size: 30px; }
+
+#relative {
+  position: relative;
+  width: 200px;
+  height: 80px; }
+
+/************************ SLIKA ************************/
+.home {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 100%;
+  height: inherit;
+  align-items: center; }
+
+#slika {
+  height: 700px;
+  background-color: #d5d5d5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  #slika #png {
+    margin-top: 6%;
+    width: 35%;
+    text-align: right; }
+    #slika #png img {
+      width: 290px;
+      height: 410px; }
+
+#tekst {
+  width: 65%;
+  height: 50%;
+  margin-bottom: 5%; }
+  #tekst p {
+    text-align: center;
+    font-size: 32px; }
+    #tekst p #drugi {
+      color: #F64C3F; }
+    #tekst p:first-child {
+      font-size: 35px;
+      padding: 20px; }
+    #tekst p:last-of-type {
+      padding-top: 5px; }
+  #tekst h2 {
+    font-size: 47px;
+    text-align: center; }
+    #tekst h2 #prvi {
+      color: #F64C3F; }
+  #tekst a {
+    text-align: center;
+    width: 40%;
+    text-decoration: none;
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    color: #000;
+    background-image: linear-gradient(to bottom right, #d5d5d5, #fff, #d5d5d5);
+    border-radius: 10px; }
+    #tekst a:hover {
+      background-image: linear-gradient(to bottom left, #d5d5d5, #fff, #d5d5d5); }
+
+#gore {
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #F64C3F; }
+
+.naslov {
+  font-family: "Grand Hotel", cursive;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #F64C3F;
+  width: 100;
+  padding: 10px 0px; }
+  .naslov h3 {
+    font-size: 30px; }
+
+#dole {
+  display: flex;
+  justify-content: space-between; }
+
+.comfortable {
+  margin-top: 20px;
+  width: 47%;
+  min-height: 100px; }
+  .comfortable a {
+    text-decoration: none;
+    color: #000; }
+  .comfortable ul {
+    list-style-type: none; }
+  .comfortable ul {
+    display: flex;
+    flex-direction: column; }
+    .comfortable ul li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #d5d5d5;
+      border-radius: 10px;
+      display: flex;
+      align-items: center; }
+      .comfortable ul li:last-child {
+        margin-bottom: 0px; }
+      .comfortable ul li i {
+        padding: 10px 25px; }
+    .comfortable ul .fab, .comfortable ul .far, .comfortable ul .fas {
+      font-size: 40px; }
+
+#project {
+  padding-top: 60px;
+  width: 100%;
+  background-color: #fff;
+  min-height: 200px;
+  padding-bottom: 30px; }
+  #project a {
+    text-decoration: none;
+    color: #000; }
+  #project ul {
+    list-style-type: none; }
+  #project #title {
+    background-color: #F64C3F;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px; }
+  #project ul {
+    text-align: center;
+    margin-bottom: 10px;
+    list-style-position: inside; }
+    #project ul li {
+      padding: 8px; }
+
+#spisak {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  min-height: 200px; }
+
+.sajtovi {
+  margin: 40px auto 0px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  width: 90%;
+  background-color: #d5d5d5;
+  border-radius: 10px;
+  min-height: 250px;
+  align-items: center; }
+
+#sajtslika {
+  height: 100%; }
+
+#project .levo {
+  position: relative;
+  text-align: center;
+  width: 40%;
+  height: 200px; }
+  #project .levo a {
+    color: #fff;
+    line-height: 5.5;
+    font-size: 35px;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; }
+  #project .levo img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%; }
+
+.desno {
+  height: 100%;
+  width: 40%; }
+  .desno h4 {
+    font-size: 20px; }
+
+/********************* EDUKACIJA **********************/
+#edukacija {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/education2.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat; }
+
+.studije {
+  flex-direction: column;
+  padding-top: 20px;
+  display: flex; }
+  .studije h4 {
+    text-indent: 2%;
+    text-decoration: underline; }
+  .studije p {
+    margin-left: 2%; }
+    .studije p:last-child {
+      text-indent: 4%; }
+
+#istorija {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 20px 0px 20px;
+  width: 1024px;
+  height: 280px;
+  border-radius: 30px;
+  margin: 0px auto; }
+
+/************************ ZA STICKY MENI ********************/
+#project, #skil, #about, #edukacija {
+  padding: 120px 0px; }
+
+#contact {
+  padding-bottom: 100px;
+  padding-top: 120px; }
+
+/******************************** ABOUT ********************************/
+#about {
+  width: 100%;
+  background-color: #d5d5d5;
+  min-height: 400px; }
+
+#two {
+  width: 100%;
+  height: 400px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+#sredina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 250px;
+  margin-top: 10px; }
+
+#aboutSlika {
+  background-image: linear-gradient(to bottom left, #d5d5d5, #fff, #d5d5d5);
+  border-radius: 10px;
+  height: 210px; }
+  #aboutSlika img {
+    border-radius: 10px;
+    width: 190px;
+    height: inherit; }
+  #aboutSlika #mreza a {
+    text-decoration: none;
+    color: #000; }
+  #aboutSlika #mreza ul {
+    list-style-type: none; }
+  #aboutSlika #mreza ul {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: space-around; }
+
+#story {
+  width: 60%; }
+  #story p {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    text-align: center; }
+    #story p:last-of-type {
+      margin: 5px 0px; }
+
+#dodatak {
+  width: 100%; }
+  #dodatak a {
+    text-decoration: none;
+    color: #000; }
+  #dodatak ul {
+    list-style-type: none; }
+  #dodatak ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    #dodatak ul li {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      #dodatak ul li i {
+        color: #F64C3F;
+        font-size: 30px;
+        background-color: #fff;
+        border-radius: 40px;
+        text-align: center;
+        padding: 15px;
+        margin: 20px 0px; }
+
+/************************* FORMA *************************/
+#zaformu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; }
+
+#poredforme {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-content: center;
+  min-height: 50px;
+  margin-top: 35px; }
+  #poredforme a {
+    text-decoration: none;
+    color: #000; }
+  #poredforme ul {
+    list-style-type: none; }
+  #poredforme p {
+    margin-bottom: 10px;
+    text-align: center; }
+  #poredforme ul {
+    display: flex;
+    justify-content: space-around; }
+    #poredforme ul li i {
+      font-size: 20px;
+      background-color: #F64C3F;
+      color: #fff;
+      padding: 8px;
+      border-radius: 40px; }
+  #poredforme #mreze {
+    width: 100%; }
+  #poredforme #pismo {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin-top: 70px; }
+    #poredforme #pismo img {
+      border-radius: 40px;
+      width: 260px;
+      height: 320px; }
+
+#forma {
+  width: 50%;
+  min-height: 300px; }
+  #forma .polje {
+    position: relative;
+    margin: 30px 0px; }
+    #forma .polje:first-child {
+      margin-top: 40px; }
+    #forma .polje:last-child {
+      text-align: center;
+      margin-top: 0px; }
+    #forma .polje:nth-child(5) {
+      margin-bottom: 10px; }
+
+.polje input, textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3px 20px;
+  margin: 10px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #F64C3F;
+  font-size: 20px;
+  font-family: "Arimo", sans-serif;
+  background: transparent;
+  border-radius: 10px 10px 0px 0px; }
+  .polje input:focus, textarea:focus {
+    box-shadow: 5px 5px 10px #d5d5d5; }
+
+#forma .polje label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transition: .5s; }
+
+#forma .polje input:focus ~ label,
+#forma .polje input:valid ~ label,
+#forma .polje textarea:focus ~ label,
+#forma .polje textarea:valid ~ label {
+  top: -20px;
+  left: 0;
+  font-size: 20px; }
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100px;
+  max-height: 100px; }
+  textarea::placeholder {
+    font-family: "Arimo", sans-serif; }
+
+button {
+  width: 100%;
+  height: 50px;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  background-image: linear-gradient(to bottom left, #F64C3F, #d5d5d5);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer; }
+  button:hover {
+    background-image: linear-gradient(to bottom left, #d5d5d5, #F64C3F); }
+
+/********************** FUTER
+**********************/
+#futer {
+  background-color: #d5d5d5;
+  min-height: 100px;
+  width: 100%;
+  padding: 30px 0px; }
+  #futer #futermeni, #futer #futerprecice {
+    width: 100%;
+    min-height: 50px; }
+    #futer #futermeni a, #futer #futerprecice a {
+      text-decoration: none;
+      color: #000; }
+    #futer #futermeni ul, #futer #futerprecice ul {
+      list-style-type: none; }
+    #futer #futermeni ul, #futer #futerprecice ul {
+      display: flex;
+      flex-direction: row;
+      margin: 0px auto;
+      width: fit-content; }
+      #futer #futermeni ul .futernevidljiv, #futer #futerprecice ul .futernevidljiv {
+        display: none; }
+      #futer #futermeni ul li, #futer #futerprecice ul li {
+        height: 25px;
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-right: 3px solid #F64C3F;
+        text-align: center; }
+        #futer #futermeni ul li:last-child, #futer #futerprecice ul li:last-child {
+          border: none; }
+
+#prava {
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

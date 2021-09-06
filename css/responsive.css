@@ -1,0 +1,351 @@
+@media screen and (max-width: 1140px) {
+  body {
+    font-size: 18px; }
+
+  .centar {
+    width: 90%; }
+
+  #tekst p {
+    font-size: 21px; }
+    #tekst p:first-child {
+      font-size: 24px;
+      padding: 20px; }
+    #tekst p:last-of-type {
+      padding-top: 5px; }
+  #tekst h2 {
+    font-size: 36px; }
+  #tekst a {
+    font-size: 18px; }
+
+  #forma input[type="text"], #forma textarea {
+    font-size: 18px; } }
+@media screen and (max-width: 940px) {
+  #poredforme #mreze {
+    margin-bottom: 12px; }
+  #poredforme #pismo img {
+    border-radius: 40px;
+    width: 220px;
+    height: 280px; } }
+@media screen and (max-width: 900px) {
+  #logo {
+    height: 80px;
+    width: 100%;
+    padding-top: 5px; }
+    #logo a img {
+      width: 80px;
+      height: 80px; }
+
+  #relative {
+    width: 150px;
+    height: 80px; }
+
+  #png {
+    margin-left: 5%; }
+    #png img {
+      width: 250px;
+      height: 370px; } }
+@media screen and (max-width: 830px) {
+  /*projekti*/
+  #project .sajtovi .levo {
+    height: fit-content; }
+    #project .sajtovi .levo a {
+      display: block;
+      letter-spacing: normal;
+      width: fit-content;
+      height: fit-content;
+      position: static;
+      font-size: 20px;
+      top: 0px;
+      left: 0px;
+      transform: none;
+      line-height: normal;
+      background-color: #F64C3F;
+      color: black;
+      font-weight: normal;
+      padding: 10px 30px;
+      margin: 0px auto; }
+
+  #sajtslika {
+    display: none; }
+
+  /*********** SLIKA ***********/
+  #slika #png img {
+    width: 260px;
+    height: 380px; }
+  #slika #tekst {
+    width: 50%;
+    height: 55%; }
+
+  /*project*/
+  #project .sajtovi {
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #fff, #d5d5d5, #fff);
+    border: none;
+    border-radius: 20px; }
+    #project .sajtovi .desno {
+      width: 90%; }
+      #project .sajtovi .desno #title {
+        text-decoration: underline; }
+
+  #project #title {
+    background-color: inherit; } }
+@media screen and (max-width: 700px) {
+  #futer #futerprecice ul li {
+    height: 30px; }
+
+  button {
+    font-size: 18px; } }
+@media screen and (max-width: 725px) {
+  #slika {
+    height: 600px; }
+    #slika #tekst {
+      height: 60%; }
+    #slika #png img {
+      width: 240px;
+      height: 340px; }
+
+  #tekst {
+    margin-right: 5%; }
+    #tekst p {
+      font-size: 18px; }
+      #tekst p:first-child {
+        font-size: 21px;
+        padding: 20px; }
+      #tekst p:last-of-type {
+        padding-top: 5px; }
+    #tekst h2 {
+      font-size: 33px; }
+
+  #lista ul {
+    height: 100%; }
+    #lista ul li:nth-child(2) {
+      display: none; }
+    #lista ul li h1 {
+      font-size: 30px; }
+      #lista ul li h1 a:hover {
+        background-color: #F64C3F; }
+    #lista ul li:first-child {
+      display: block;
+      font-family: "Grand Hotel", cursive;
+      font-size: 30px;
+      background-color: #F64C3F; }
+
+  #meni {
+    border-bottom: none;
+    position: static; }
+    #meni .centar:first-child {
+      width: 100%; }
+    #meni ul {
+      text-align: center;
+      flex-wrap: wrap; }
+      #meni ul #relative {
+        display: none; }
+      #meni ul li {
+        width: 100%; }
+        #meni ul li a {
+          border-bottom: 2px solid #F64C3F;
+          border-radius: 0; }
+          #meni ul li a:hover {
+            background-color: #fff; }
+        #meni ul li:last-child {
+          border-bottom: none; }
+
+  .border a {
+    display: block;
+    width: 100%;
+    padding: 15px 0px; }
+
+  /****** contact ******/
+  #zaformu {
+    flex-direction: column; }
+    #zaformu #forma {
+      width: 100%; }
+
+  #poredforme {
+    width: 100%; }
+    #poredforme #mreze {
+      display: flex; }
+      #poredforme #mreze p {
+        width: 65%;
+        margin-bottom: 0px; }
+      #poredforme #mreze ul {
+        width: 35%;
+        align-items: center; }
+    #poredforme #pismo {
+      display: none; } }
+/******* skills********/
+.comfortable {
+  /* project */ }
+  .comfortable ul li i {
+    padding: 10px 15px; }
+
+@media screen and (max-width: 600px) {
+  /******* SLIKA *********/
+  .home {
+    flex-direction: column; }
+
+  #slika {
+    height: 700px; }
+    #slika #tekst {
+      width: 100%;
+      margin: 40px 0px 0px 0px; }
+      #slika #tekst a {
+        padding: 15px; }
+    #slika #png {
+      margin: 0px 0px 50px 0px;
+      width: 100%;
+      text-align: center; }
+
+  /******* skills********/
+  #dole {
+    flex-direction: column; }
+
+  .comfortable {
+    width: 100%; }
+
+  .comfortable:last-child {
+    margin-top: 10px; }
+
+  /************* about ************/
+  #sredina {
+    flex-direction: column; }
+    #sredina #story {
+      width: 100%;
+      margin: 40px 0px 20px 0px; }
+    #sredina #aboutSlika {
+      margin-top: 20px;
+      width: 80%;
+      height: 100%; }
+      #sredina #aboutSlika img {
+        width: 100%;
+        height: 100%; }
+
+  #dodatak ul {
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    #dodatak ul li {
+      background-color: #fff;
+      border-radius: 10px;
+      margin-top: 10px;
+      flex-direction: row;
+      width: 47%; }
+      #dodatak ul li i {
+        padding: 10px;
+        margin: 5px; } }
+@media screen and (max-width: 535px) {
+  #slika {
+    height: 700px; }
+
+  #tekst {
+    align-items: flex-start;
+    width: 100%;
+    margin: 40px 0px 0px 0px; }
+    #tekst p {
+      font-size: 18px; }
+      #tekst p:first-child {
+        font-size: 21px;
+        padding: 20px; }
+      #tekst p:last-of-type {
+        padding-top: 5px; }
+    #tekst h2 {
+      font-size: 33px; }
+    #tekst a {
+      font-size: 16px; }
+
+  #futer {
+    padding: 50px 0px 30px 0px; }
+    #futer #futermeni ul, #futer #futerprecice ul {
+      border-bottom: 2px solid #fff;
+      flex-direction: column;
+      width: 70%; }
+      #futer #futermeni ul:first-child, #futer #futerprecice ul:first-child {
+        padding-bottom: 20px; }
+      #futer #futermeni ul:last-child, #futer #futerprecice ul:last-child {
+        padding-top: 0px;
+        margin-bottom: 30px; }
+      #futer #futermeni ul .futernevidljiv, #futer #futerprecice ul .futernevidljiv {
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: underline;
+        color: #F64C3F;
+        font-family: "Grand Hotel", cursive; }
+      #futer #futermeni ul li, #futer #futerprecice ul li {
+        width: 100%;
+        border: none;
+        padding: 5px; } }
+@media screen and (max-width: 500px) {
+  /*skills*/
+  /******* skills ***********/
+  .comfortable ul .fab, .comfortable ul .far, .comfortable ul .fas {
+    font-size: 30px; } }
+@media screen and (max-width: 460px) {
+  #dodatak ul li {
+    width: 100%; }
+
+  #poredforme #mreze {
+    flex-direction: column; }
+    #poredforme #mreze p {
+      width: 100%;
+      margin-bottom: 15px; }
+    #poredforme #mreze ul {
+      width: 100%; }
+      #poredforme #mreze ul li i {
+        font-size: 15px; } }
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 14px; }
+
+  .comfortable ul li {
+    flex-direction: column; }
+    .comfortable ul li p {
+      text-align: center; }
+    .comfortable ul li i {
+      padding: 5px; }
+
+  #title h4 {
+    font-size: 12px; }
+
+  .naslov h3 {
+    font-size: 22px; }
+
+  #project #title h4 {
+    font-size: 20px; }
+
+  #futer #futermeni ul .futernevidljiv, #futer #futerprecice ul .futernevidljiv {
+    font-size: 22px; }
+
+  #about #dodatak ul li {
+    flex-direction: column;
+    padding-bottom: 10px; }
+
+  #project .sajtovi .levo a {
+    font-size: 14px; }
+
+  #forma input[type="text"], #forma textarea {
+    font-size: 15px; }
+
+  #forma .polje input:focus ~ label,
+  #forma .polje input:valid ~ label,
+  #forma .polje textarea:focus ~ label,
+  #forma .polje textarea:valid ~ label {
+    font-size: 17px; }
+
+  button {
+    font-size: 15px; }
+
+  #forma .polje {
+    margin: 20px 0px; }
+    #forma .polje:first-child {
+      margin-top: 30px; } }
+@media screen and (max-width: 250px) {
+  #slika #png {
+    width: 100%;
+    height: 100%; }
+    #slika #png img {
+      max-width: 100%;
+      max-height: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */
